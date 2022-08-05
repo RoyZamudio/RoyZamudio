@@ -63,6 +63,20 @@ cotangente(f) = -1.25875
 La salida debería ser igual a la de la biblioteca estática después de que el usuario haya ingresado un número
 
 
+![d2e345db-ee07-40d8-8a88-f8bda85f22e5](https://user-images.githubusercontent.com/109250047/182996997-689d5de0-ef61-4282-b7e5-e85f22585291.jpg)
+
+
+
+
+Comandos que se usaron para compilar las bibliotecas:
+
+
+g++ main.cc -o app\testlib -I .\lib\include -L .\lib\static -lftrig
+
+
+g++ main.cc -o app\testdll -I .\lib\include -L .\lib\dynamic -lftrig
+
+
 
 
 
